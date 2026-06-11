@@ -35,7 +35,13 @@ like one voice — consistency is the whole point.
 - **Accent**: exactly ONE color — warm orange `#F97316`. Use it on the
   single most meaningful element (the thing the viewer should understand).
   If everything is orange, nothing is.
-- **Figures**: small, simple, hand-drawn humans/robots. Never photorealistic.
+- **Figures**: TINY. The human is always small — dwarfed by the object,
+  the wall, the staircase, the line. **Enlarge the thing, shrink the
+  person**: this scale contrast is the signature drama of the style (a
+  tiny figure facing an enormous wall of buttons says more than a
+  medium figure beside a medium wall). If a figure fills more than
+  roughly a tenth of the frame, it is too big — say "tiny" explicitly
+  in the prompt, image models love to inflate people.
 - **Mood**: witty, restrained, intelligent. The image should make the
   viewer think for one second, then smile.
 
@@ -57,6 +63,10 @@ thinking here.
 4. **Place the orange deliberately.** The orange element answers: "what is
    this image about?" — the kept button, the warm steam, the inconsistent
    step, the refined line.
+5. **Exaggerate the scale gap.** Make the object monumental and the person
+   tiny. The disproportion is what makes the viewer feel the idea — a
+   small human against a vast generated world is, after all, the subject
+   of the whole genre.
 
 ## Prompt Template
 
@@ -73,6 +83,10 @@ characters, what is orange and why]. Witty, restrained, intelligent.
 
 Scene-writing tips learned the hard way:
 
+- Always write "a TINY human figure" / "a tiny figure dwarfed by ..." —
+  and describe the object as large ("an enormous wall", "a vast circle").
+  State the scale contrast twice (once on the figure, once on the object)
+  or the model will even them out.
 - Describe **who does what to whom** with spatial directions (left/right/
   middle). Vague spatial relations produce split, disconnected scenes.
 - Add explicit negative constraints when geometry matters: "plain side
@@ -133,9 +147,12 @@ judgment walking through AI's rough output, leaving refinement behind.
 
 Metaphors that worked: erasing a wall of buttons down to one; a conveyor
 of identical bottles with one hand-painted; completing the last arc of a
-nearly-finished circle; handing warm tea beside a robot's hollow bouquet;
-tripping on the one inconsistent stair.
+nearly-finished circle; tripping on the one inconsistent stair.
 
 Metaphors that failed (and why): ornate empty speech bubbles (too
 abstract), a row of doors with one odd handle (no action, no consequence),
 Escher staircases (model over-creativity — constrain geometry explicitly).
+
+Renderings that failed (and why): figures drawn at half the frame height
+— metaphor fine, drama gone. The style lives on tiny people in big
+scenes; oversized figures turn a poster into a comic panel.

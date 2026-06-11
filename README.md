@@ -31,7 +31,9 @@ Products with AI* (《与 AI 一起做产品的六条原则》).
 | | |
 |---|---|
 | ![](examples/01-amplifier.png) | ![](examples/02-subtraction.png) |
-| ![](examples/05-empathy.png) | ![](examples/06-consistency.png) |
+
+Note the scale: the person is always **tiny**, the object monumental.
+That disproportion is the signature drama of the style.
 
 ## Install
 
