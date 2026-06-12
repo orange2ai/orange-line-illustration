@@ -121,6 +121,24 @@ perfectly legible.
 Keep the illustration in the lower portion, breathing room around the
 title.
 
+## Character Consistency (for multi-image sets)
+
+When producing a set of illustrations that will be viewed together (a PPT
+deck, an article series, a multi-panel explainer), establish the human
+figure style **before** generating any scene illustrations.
+
+Generate a single image with **4 candidate figures** side by side — each
+with a distinct style (e.g. rounder head, angular torso, different arm/hand
+treatment, varying expressiveness). Label them A / B / C / D below each.
+Ask the user to pick one, or describe tweaks.
+
+Once confirmed, write a concise character prompt block (20–40 words) and
+reuse it verbatim in every subsequent prompt for that set. The block should
+pin: head shape, eye style, mouth treatment, torso shape, arm/hand style,
+leg style, fill vs. outline.
+
+For single standalone illustrations, skip this step.
+
 ## Workflow: 抽卡, not 检查 (gacha, not QA)
 
 Generation is cheap; AI self-inspection is expensive and adds little.
