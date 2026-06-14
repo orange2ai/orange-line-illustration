@@ -121,11 +121,33 @@ perfectly legible.
 Keep the illustration in the lower portion, breathing room around the
 title.
 
+## 小橙 IP (default character)
+
+The default recurring character is **小橙** — a tiny line-drawn figure with
+a single orange dot on its chest. Read `references/xiao-orange-ip.md` for
+the full character definition and `references/xiao-orange-prompt-template.md`
+for the generation prompt template.
+
+Key traits (quick reference):
+- Circle head (outline only, not filled), two black dot eyes, no mouth.
+- Narrow rectangular body (outline only), thin stick arms and legs.
+- ONE small solid orange dot (#F97316) on the chest — this IS the accent.
+- Tiny relative to scene objects. Geometric, hand-drawn, not cute.
+- Must participate in the core action, not decorate.
+
+When using 小橙, the orange accent rule changes slightly: the accent is
+always the chest dot (the character itself), not a separate scene element.
+All other objects remain black line art on white.
+
+If the user requests a different figure style for a specific set, fall back
+to the generic character consistency flow below.
+
 ## Character Consistency (for multi-image sets)
 
 When producing a set of illustrations that will be viewed together (a PPT
-deck, an article series, a multi-panel explainer), establish the human
-figure style **before** generating any scene illustrations.
+deck, an article series, a multi-panel explainer) and the user does NOT
+want 小橙, establish the human figure style **before** generating any
+scene illustrations.
 
 Generate a single image with **4 candidate figures** side by side — each
 with a distinct style (e.g. rounder head, angular torso, different arm/hand
@@ -137,7 +159,8 @@ reuse it verbatim in every subsequent prompt for that set. The block should
 pin: head shape, eye style, mouth treatment, torso shape, arm/hand style,
 leg style, fill vs. outline.
 
-For single standalone illustrations, skip this step.
+For single standalone illustrations with 小橙, use the prompt template
+directly — no character selection step needed.
 
 ## Workflow: 抽卡, not 检查 (gacha, not QA)
 
