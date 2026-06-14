@@ -3,10 +3,12 @@ name: orange-line-illustration
 description: >
   Generate New Yorker-style minimalist editorial illustrations — thin black
   ink lines on white, vast negative space, a single orange accent (#F97316) —
-  for articles, principles, covers, and concept visuals. Use when the user
-  asks for 配图, 插图, 封面图, editorial illustrations, concept/metaphor
-  illustrations, article covers, 公众号配图, principle/maxim illustrations,
-  or mentions "橙线风格" / "orange line style" / "纽约客风格插图". Works with
+  for articles, principles, covers, concept visuals, and illustrated HTML
+  slide decks. Use when the user asks for 配图, 插图, 封面图, editorial
+  illustrations, concept/metaphor illustrations, article covers, 公众号配图,
+  principle/maxim illustrations, or mentions "橙线风格" / "orange line style"
+  / "纽约客风格插图". Also use for "橙线 PPT" / "orange line PPT" /
+  "线条插画PPT" / "帮我做成PPT配插图" / "做成演讲稿". Works with
   any image generation tool that accepts text prompts.
 metadata:
   category: creative
@@ -197,3 +199,25 @@ Escher staircases (model over-creativity — constrain geometry explicitly).
 Renderings that failed (and why): figures drawn at half the frame height
 — metaphor fine, drama gone. The style lives on tiny people in big
 scenes; oversized figures turn a poster into a comic panel.
+
+## PPT Workflow (illustrated slide decks)
+
+When the user wants to turn an article or talk into an HTML slide deck
+with orange-line illustrations, read `references/ppt-workflow.md` for
+the complete step-by-step process.
+
+Key differences from standalone illustrations:
+- PPT illustrations depict **actual story scenes**, not abstract metaphors.
+- Use 小橙 as the default recurring character across all slides.
+- Confirm outline before generating; rename files before building HTML.
+- Output is a self-contained HTML file with navigation + progress bar.
+
+## References
+
+All reference files live in `references/`:
+
+- `xiao-orange-ip.md` — 小橙 IP definition (default character)
+- `xiao-orange-prompt-template.md` — 小橙 generation prompt template
+- `xianren-ip.md` — 线人 (abstract human figure)
+- `xianmao-ip.md` — 线猫 (minimal cat character)
+- `ppt-workflow.md` — Full PPT slide deck workflow
